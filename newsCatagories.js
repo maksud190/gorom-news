@@ -53,13 +53,10 @@ const displayNews = news =>{
                   </div>
                   <div>
                   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Detail</button>
-                  
                   </div>
-                  
                 </div>
               </div>
             </div>
-    
     `
     newsContainer.appendChild(newsCard);
     })
