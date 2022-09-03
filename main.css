@@ -1,0 +1,19 @@
+.my-image{
+    border-radius: 50%;
+    width: 30px;
+    padding-top: 5px;
+}
+
+.news-blogs{
+    padding-top: 8px;
+}
+
+.news-name{
+    color: white;
+    background-color: rgb(79, 139, 250);
+    padding: 0 4px 2px 4px;
+}
+
+.hover:hover{
+    cursor: pointer;
+}
