@@ -1,5 +1,5 @@
 .my-image{
-    border-radius: 50%;
+    border-radius: 50px;
     width: 30px;
     padding-top: 5px;
 }
@@ -9,9 +9,11 @@
 }
 
 .news-name{
+    font-size: 17px;
     color: white;
     background-color: rgb(79, 139, 250);
     padding: 0 4px 2px 4px;
+    border-radius: 5px;
 }
 
 .hover:hover{
