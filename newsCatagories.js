@@ -49,10 +49,11 @@ const displayNews = news =>{
                   <p class="card-text"><small class="text-muted">${hotNews.author.name}</small></p>
                   </div>
                   <div>
-                  <p class="card-text align-items-center"><small class="text-muted">${hotNews.total_view}</small></p>
+                  <p class="card-text align-items-center"><small class="text-muted"><i class="fa-solid fa-eye"></i> ${hotNews.total_view}</small></p>
                   </div>
                   <div>
-                  <button type="button" class="btn btn-primary">Detail</button>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Detail</button>
+                  
                   </div>
                   
                 </div>
