@@ -29,7 +29,7 @@ function displayNewsById(categoryId){
 const displayNews = news =>{
     console.log(news);
     const newsContainer = document.getElementById('news-container');
-
+    newsContainer.innerText = '';
     news.forEach(hotNews =>{
         console.log(hotNews);
         const newsCard = document.createElement('div');
@@ -63,6 +63,4 @@ const displayNews = news =>{
     
 }
 
-
-// displayCategories(); 
 loadCategory();
